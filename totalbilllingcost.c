@@ -1,3 +1,4 @@
+//Price of n items is input and according cgst and sgst price gets added 
 #include <stdio.h>
 int main()
 {
