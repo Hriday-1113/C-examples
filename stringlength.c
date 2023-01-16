@@ -1,4 +1,6 @@
+// this fundtion uses xstrlen fuction to calculate length of strings
 #include<stdio.h>
+
 
 int xstrlen(char*m){
     int length=0;
