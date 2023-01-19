@@ -1,3 +1,4 @@
+// user defined string compare function
 #include<stdio.h>
 
 int xstrcmp(  char*arr1,  char*arr2){
