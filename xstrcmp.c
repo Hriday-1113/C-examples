@@ -4,7 +4,7 @@
 int xstrcmp(  char*arr1,  char*arr2){
       int length1=0,length2=0,i=0;
       char *a1=arr1,*a2=arr2;
-      while(*arr1!='\0' && *arr2!='\0'){
+      while(*arr1!='\0' || *arr2!='\0'){
         length1++;length2++;
         arr1++;arr2++;
                         }
