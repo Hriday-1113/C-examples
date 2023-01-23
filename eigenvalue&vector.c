@@ -48,14 +48,14 @@ printf("There exist no  non zero eigenvector corresponding to eigen value %f .\n
      if(i==0){
      eigenvector1[0]=1;
      eigenvector1[1]=(-arr1[0]*1)/arr1[1];
-printf("Eigen vector corresponding to %f is [%f %f]",eigen_values[0],eigenvector1[0],eigenvector1[1]);  
+printf("Eigen vector corresponding to %f is [%f  %f]",eigen_values[0],eigenvector1[0],eigenvector1[1]);  
 printf("\n");
 
              }   
      if(i==1){
         eigenvector2[0]=1;
      eigenvector2[1]=(-arr2[0]*1)/arr2[1];
-   printf("Eigen vector corresponding to %f is [%f %f]",eigen_values[1],eigenvector2[0],eigenvector2[1]); 
+   printf("Eigen vector corresponding to %f is [%f  %f]",eigen_values[1],eigenvector2[0],eigenvector2[1]); 
               }
 
 
